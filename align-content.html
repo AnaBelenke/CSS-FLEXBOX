@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align Content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: darkcyan;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1px;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .start{
+            align-content: flex-start;
+        }
+        .end{
+            align-content: flex-end;
+        }
+        .between{
+            align-content: space-between;
+        }
+        .around{
+            align-content: space-around;
+        }
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> ROW </h1>
+
+    <h3> Stretch </h3>
+    <div class="container stretch">
+    <div class="item">O amor sobrevive na energia de são miguel </div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>  
+    <div class="item">O amor sobrevive na energia de são miguel</div>    
+    </div> 
+
+
+    <h3> Center </h3>
+    <div class="container center">
+    <div class="item">O amor sobrevive na energia de são miguel </div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>   
+    </div> 
+
+    
+    <h3> Flex-start </h3>
+    <div class="container start">
+    <div class="item">O amor sobrevive na energia de são miguel </div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>   
+    </div> 
+
+    
+    <h3> Flex-end </h3>
+    <div class="container end">
+    <div class="item">O amor sobrevive na energia de são miguel </div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>   
+    </div> 
+
+    
+    <h3> space-between </h3>
+    <div class="container between">
+    <div class="item">O amor sobrevive na energia de são miguel </div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>   
+    </div> 
+
+
+    <h3> space-around </h3>
+    <div class="container around">
+    <div class="item">O amor sobrevive na energia de são miguel </div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>
+    <div class="item">O amor sobrevive na energia de são miguel</div>   
+    </div> 
+
+</body>
+</html>

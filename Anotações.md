@@ -64,8 +64,50 @@ ________________________________________________________________________
 #SPACE-AROUND 
 ->ESPAÇOS MAIORES NO MEIO E MENORES NO FINAL  
  
- 
+ ________________________________________________________________________
 
+ ##ALIGN-ITEMS
+
+ -> ALINHAMENTO DE ACORDO COM O EIXO 
+ ->ALINHA DIFERENTE 
+ -> ALINHA CENTRAL EIXO VERTICAL 
+
+ #CENTER 
+ -> ALINHA CENTRO (VAI CRESCER DE ACORDO COM TEXTO)
+
+ #STRETCH  
+ -> PADRÃO (ITEMS CRESCEM IGUAIS)
+
+ #FLEX-START
+ -> ALINHA INICIO (SE MANTEM NA LINHA DE ACIMA)
+
+ #FLEX-END
+ -> ALINHA FINAL (SE MANTEM NA LINHA DE ABAIXO)
+
+ #BASELINE 
+ -> ALINHA DE ACORDO COM A LINHA BASE DA TIPOGRAFIA DOS ITENS 
+
+________________________________________________________________________
+
+
+ ##ALIGN-CONTENT
+
+ -> ALINHAMENTO DAS LINHA EM RELAÇÃO AO EIXO VERTICAL 
+ REGRAS 
+ ->UTILIZE QUEBRA DE LINHA
+ ->ALTURA MAIOR QUE SOMA DAS LINHAS 
+
+ #CENTER  
+
+ #STRETCH  
+ 
+ #FLEX-START
+ 
+ #FLEX-END
+ 
+ #BASELINE 
+ 
+________________________________________________________________________
 
 
 
