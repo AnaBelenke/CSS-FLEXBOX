@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Self t</title>
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 5px;
+        }
+        
+        .item{
+            background-color: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .end{
+            align-self: flex-end;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+        .baselina{
+            align-self: baseline;
+        }
+        .auto{
+            align-self: auto;
+        }
+        .direction{
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1> Aling Self </h1>
+    <h3> auto </h3>    
+    <div class="container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">BBB</div>
+        <div class="item auto">CCC</div>
+        <div class="item auto">DDD</div>
+        <div class="item auto">EEE</div>
+    </div>
+    <h3> POSIÇÕES </h3>
+    <div class="container">
+        <div class="item start">AAA</div>
+        <div class="item end">BBB bog brother brasil </div>
+        <div class="item stretch">CCC</div>
+        <div class="item baseline">DDD</div>
+        <div class="item end">EEE</div>
+    </div>
+    <br>
+    <hr>
+    <h3> auto </h3>    
+    <div class="container direction">
+        <div class="item auto">AAA</div>
+        <div class="item auto">BBB</div>
+        <div class="item auto">CCC</div>
+        <div class="item auto">DDD</div>
+        <div class="item auto">EEE</div>
+    </div>
+    <h3> POSIÇÕES </h3>
+    <div class="container direction">
+        <div class="item start">AAA</div>
+        <div class="item end">BBB bog brother brasil </div>
+        <div class="item stretch">CCC</div>
+        <div class="item center">DDD</div>
+        <div class="item end">EEE</div>
+    </div>
+
+</body>
+</html>
